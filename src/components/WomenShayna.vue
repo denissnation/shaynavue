@@ -77,7 +77,7 @@ export default {
     }
   },
   mounted() {
-    Axios.get("http://kavinesia.com/api/products")
+    Axios.get("https://kavinesia.com/api/products")
       .then(res => (this.products = res.data.data.data))
       .catch(err => console.log(err));
     if (localStorage.getItem("keranjangUser")) {

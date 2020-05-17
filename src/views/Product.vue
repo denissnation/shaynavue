@@ -128,7 +128,7 @@ export default {
         localStorage.removeItem("keranjangUser");
       }
     }
-    Axios.get("http://kavinesia.com/api/products", {
+    Axios.get("https://kavinesia.com/api/products", {
       params: {
         id: this.$route.params.id
       }
