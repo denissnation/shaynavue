@@ -27,7 +27,7 @@
             <div class="col-lg-3 text-right col-md-3">
               <ul class="nav-right">
                 <li class="cart-icon">
-                  Keranjang &nbsp;
+                  Keranjang Belanja &nbsp;
                   <router-link to="/cart">
                     <i class="icon_bag_alt"></i>
                     <span>{{keranjangUser.length}}</span>
