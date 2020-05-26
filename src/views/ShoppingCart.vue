@@ -197,7 +197,7 @@ export default {
       };
 
       axios
-        .post("https://kavinesia.com/api/checkout", checkoutData)
+        .post("http://admin.kavinesia.com/api/checkout", checkoutData)
         .then(() => this.$router.push("success"))
         // eslint-disable-next-line no-console
         .catch(err => console.log(err));
